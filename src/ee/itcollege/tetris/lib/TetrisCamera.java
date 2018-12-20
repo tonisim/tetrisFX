@@ -6,7 +6,7 @@ import javafx.scene.transform.Rotate;
 public class TetrisCamera extends PerspectiveCamera {
 
 	public TetrisCamera() {
-		setFieldOfView(50);
+		setFieldOfView(500);
 		setNearClip(.1);
 		setFarClip(1000);
 		getTransforms().add(new Rotate(45, Rotate.X_AXIS));

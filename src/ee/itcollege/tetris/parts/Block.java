@@ -10,7 +10,7 @@ public class Block extends Rectangle {
 	public Block(double x, double y) {
 		super(x * SIZE, y * SIZE, SIZE, SIZE);
 
-		setFill(Color.BLACK);
+		setFill(Color.BLUE);
 	}
 
 }
